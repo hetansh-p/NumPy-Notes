@@ -16,3 +16,13 @@ b[1,:,0] = [12,16]
 
 b[:,0,:] = [1]
 print(b)
+
+# shape and size
+a = b.shape()
+c = b.size()
+
+print(a)
+print(c)
+
+
+
